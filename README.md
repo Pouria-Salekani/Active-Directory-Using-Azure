@@ -70,13 +70,10 @@ The lab simulates a small business Active Directory environment by deploying a d
 - Assigned a static private IP address
 - Installed Active Directory Domain Services
 - Promoted the server to a new forest
-- Configured the domain:
+- Configured the domain: _local.act.dir_
 
-```
-local.act.dir
-```
-<h3>Domain Controller</h3>
-<img src="images/server-manager" width="800">
+  
+<img src="images/server-manager.PNG" width="600">
 
 ---
 
@@ -100,7 +97,7 @@ local.act.dir
     └── ITSupport
 ```
 
-📷 *Insert OU screenshot c5*
+<img src="images/org-unit.PNG" width="600">
 
 ---
 
@@ -116,9 +113,9 @@ Example:
 | Jesse James | ITSupport |
 | Michael Himmy | Helpdesk |
 
-📷 *Insert Users screenshot c7*
+<img src="images/users.PNG" width="600">
 
-📷 *Insert Group Membership screenshot c8*
+<img src="images/specific-user.PNG" width="600">
 
 ---
 
@@ -131,7 +128,8 @@ Provisioned a client VM and:
 - Verified domain authentication
 - Confirmed the computer object appeared inside Active Directory
 
-📷 *Insert CL01 screenshot c9 and c10*
+<img src="images/client-status.PNG" width="600">
+<img src="images/info-on-client.PNG" width="600">
 
 ---
 
