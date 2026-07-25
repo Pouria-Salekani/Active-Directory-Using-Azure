@@ -1,8 +1,6 @@
 
 # Active Directory Using Microsoft Azure
 
-## Overview
-
 Deployed an enterprise-style Active Directory environment in Microsoft Azure using Windows Server 2025 x64 Gen2.
 
 The lab simulates a small business Active Directory environment by deploying a domain controller, configuring DNS, creating Organizational Units (OUs), managing domain users and security groups, joining a Windows client (also on Azure) to the domain, and applying Group Policy.
